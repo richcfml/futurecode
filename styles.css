@@ -1,0 +1,18 @@
+@import "tailwindcss";
+
+@theme {
+  --color-futurecode-black: #090909;
+  --color-futurecode-deep-space-blue: #003556;
+  --color-futurecode-ebony: #6a7062;
+  --color-futurecode-rose: #c08497;
+  --font-futurecode: "PlayrightUSModern", sans-serif;
+}
+
+@layer base {
+  @font-face {
+    font-family: "PlayrightUSModern";
+    src: url("/fonts/PlaywriteUSModern.ttf") format("truetype");
+    font-weight: 100, 400, 600, 900;
+    font-style: normal;
+  }
+}
