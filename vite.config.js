@@ -15,6 +15,7 @@ export default defineConfig({
         main: resolve(__dirname, "index.html"),
         services: resolve(__dirname, "services.html"),
         developmenet: resolve(__dirname, "development.html"),
+        company: resolve(__dirname, "company.html"),
       },
       output: {
         chunkFileNames: "assets/[name]-[hash].js",
